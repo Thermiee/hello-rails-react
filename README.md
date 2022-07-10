@@ -1,24 +1,72 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello Rails React
 
-Things you may want to cover:
+> Understand the setup process for adding React/Redux to rails application.
 
-* Ruby version
+This project is made as part of Microverse program.
 
-* System dependencies
+## Built With
 
-* Configuration
+- RUBY
+- RAILS
+- GEM
+- TERMINAL
+- React/Redux
 
-* Database creation
+## Getting Started
 
-* Database initialization
+Start by cloning the repository.
 
-* How to run the test suite
+```
+git clone git@github.com:Thermiee/hello-rails-react.git
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+Navigate to the created folder.
 
-* ...
+```
+cd hello-rails-react
+```
+
+
+Install all the dependencies.
+
+```
+bundle install
+npm install
+```
+
+
+Create and migrate the database
+
+```
+rails db:create
+rails db:migrate
+```
+
+To run the server
+
+```
+rails s
+```
+
+## 👤 Author 
+Emmanuel Jolugbo
+- GitHub: [Thermiee](https://github.com/Thermiee)
+- LinkedIn: [Emmanuel Jolugbo](https://www.linkedin.com/in/emmanuel-jolugbo/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
