@@ -1,56 +1,61 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello Rails React
 
-> Description the project.
+> Understand the setup process for adding React/Redux to rails application.
 
+This project is made as part of Microverse program.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- RUBY
+- RAILS
+- GEM
+- TERMINAL
+- React/Redux
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Start by cloning the repository.
+
+```
+git clone git@github.com:Thermiee/hello-rails-react.git
+```
 
 
-To get a local copy up and running follow these simple example steps.
+Navigate to the created folder.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+```
+cd hello-rails-react
+```
 
 
+Install all the dependencies.
 
-## Authors
+```
+bundle install
+npm install
+```
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+Create and migrate the database
 
-👤 **Author2**
+```
+rails db:create
+rails db:migrate
+```
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+To run the server
+
+```
+rails s
+```
+
+## 👤 Author 
+Emmanuel Jolugbo
+- GitHub: [Thermiee](https://github.com/Thermiee)
+- LinkedIn: [Emmanuel Jolugbo](https://www.linkedin.com/in/emmanuel-jolugbo/)
+
 
 ## 🤝 Contributing
 
@@ -61,12 +66,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
